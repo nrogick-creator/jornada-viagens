@@ -13,6 +13,7 @@ AND -> operador lógico, combinando condições
 (MÁX-WIDTH: 768px) -> é a condição (se a tela tiver até 768px de largura)
 {...} -> aqui ficam os estilos que só serão aplicados nessa condição 
 
+<<<<<<< HEAD
 BREAKPOINTS -> são pontos de corte para aplicar estilos 
 
 As medidas abaixo não são regras, mas são os mais comuns:
@@ -26,6 +27,8 @@ através do google serach console podemos ver qual tela os usuários mais acessa
 
 */
 
+=======
+>>>>>>> cca3de70b1cf1924bc2731f4ed4744510b9dc339
 @font-face {
   font-family: "Montserrat";
   src: url(../fonts/Montserrat-VariableFont_wght.ttf);
