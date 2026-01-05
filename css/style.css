@@ -1,34 +1,3 @@
-/* CSS MEDIA QUERIES são condições que aplicam CSS's diferentes em mídias diferentes. Então, é uma forma da gente falar para o navegador que a partir de determinada condição o estilo vai mudar.
-Sintaxe básica:
-@media screen and (max-width: 768px) {
-body{
-background: lightblue;
-}
-}
-onde:
-@ -> indica um AT-RULE (ou seja, a partir do @ vai ter alguma regra)
-MEDIA -> significa que a regra vai depender de características da mídia
-SCREEN -> tipo de mídia (telas)
-AND -> operador lógico, combinando condições
-(MÁX-WIDTH: 768px) -> é a condição (se a tela tiver até 768px de largura)
-{...} -> aqui ficam os estilos que só serão aplicados nessa condição 
-
-<<<<<<< HEAD
-BREAKPOINTS -> são pontos de corte para aplicar estilos 
-
-As medidas abaixo não são regras, mas são os mais comuns:
-
-320px -> celulares pequenos
-768px -> tablets
-1024px -> laptops
-1440 -> desktops grandes
-
-através do google serach console podemos ver qual tela os usuários mais acessam o site
-
-*/
-
-=======
->>>>>>> cca3de70b1cf1924bc2731f4ed4744510b9dc339
 @font-face {
   font-family: "Montserrat";
   src: url(../fonts/Montserrat-VariableFont_wght.ttf);
