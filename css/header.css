@@ -1,0 +1,12 @@
+header {
+  width: 100%;
+  height: 138px;
+  background-color: var(--background-tertiary-color);
+}
+
+.logo {
+  width: 68px;
+  height: 64px;
+  display: inline-block;
+  margin: 37px 0 0 48px; /*37px em cima e embaixo; 0 na direita, 0 embaixo; 48px na esquerda */
+}
