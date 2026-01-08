@@ -5,6 +5,7 @@ header {
   justify-content: space-between;
   align-items: flex-start;
   padding: 38px 48px; /* 38px em cima e embaixo e 48px nas laterais */
+  position: relative;
 }
 
 .logo {
@@ -20,8 +21,23 @@ header {
 
 input[type="checkbox"]:checked ~ nav {
   display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: var(--background-tertiary-color);
 }
 
 nav {
   display: none; /*esconde o texto */
+}
+
+.list-links {
+  list-style-type: none;
+}
+
+.list-links li a {
+  /* a ordem aqui fica: entrar na classe list-links, depois entra na li e depois acessa os links que estão com a tag a */
+  color: var(--text-secondary-color);
+  text-decoration: none;
 }
