@@ -15,6 +15,14 @@ header {
   /* margin: 37px 0 0 48px; 37px em cima e embaixo; 0 na direita, 0 embaixo; 48px na esquerda */
 }
 
+.img-mobile {
+  display: block;
+}
+
+.img-desktop {
+  display: none;
+}
+
 .navigation-menu {
   margin-top: 24px;
 }
@@ -72,5 +80,31 @@ nav {
 
   .navigation-menu ul li {
     margin: 0;
+  }
+}
+
+/* CONFIGURANDO O MENU PARA DESKTOPS */
+@media screen and (min-width: 1024px) {
+  header {
+    padding: 38px 120px;
+  }
+  .logo {
+    width: 260px;
+    height: 64px;
+  }
+  .img-desktop {
+    display: block;
+  }
+  .img-mobile {
+    display: none;
+  }
+  .navigation-menu a:hover {
+    color: var(--primary-color);
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  header {
+    padding: 38px 160px;
   }
 }
