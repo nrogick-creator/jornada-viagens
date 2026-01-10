@@ -36,6 +36,10 @@ nav {
   list-style-type: none;
 }
 
+.list-links li{
+  margin: 16px 0;
+}
+
 .list-links li a {
   /* a ordem aqui fica: entrar na classe list-links, depois entra na li e depois acessa os links que estão com a tag a */
   color: var(--text-secondary-color);
