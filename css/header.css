@@ -36,8 +36,41 @@ nav {
   list-style-type: none;
 }
 
+.list-links li {
+  margin: 16px 0;
+}
+
 .list-links li a {
   /* a ordem aqui fica: entrar na classe list-links, depois entra na li e depois acessa os links que estão com a tag a */
   color: var(--text-secondary-color);
   text-decoration: none;
+  font-weight: var(--menu-text-weight);
+  font-size: 24px;
+}
+
+/* CONFIGURANDO O USO PARA TABLETS */
+@media screen and (min-width: 768px) {
+  .navigation-menu {
+    margin-top: 0;
+    width: 467px;
+  }
+
+  .navigation-menu label {
+    display: none; /* não precisamos mais do label  pq agora não precisa abrir o menu, ele já ficará aberto direto*/
+  }
+
+  .navigation-menu nav {
+    display: block;
+  }
+
+  .navigation-menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+  }
+
+  .navigation-menu ul li {
+    margin: 0;
+  }
 }
