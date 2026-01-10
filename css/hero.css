@@ -1,0 +1,12 @@
+.hero-img {
+  height: 400px;
+  width: 100%;
+  background-image: url(../img/hero-mobile.jpg); /* coloca a img como background para ajustar melhor a tela */
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* para economizar na escrita das propriedades acima, poderíamos escrever: 
+    background: url(../img/hero-mobile.jpg) no-repeat;
+    background-size: cover;
+  */
+}
