@@ -10,3 +10,25 @@
     background-size: cover;
   */
 }
+
+/* CONFIGURANDO A IMAGEM DE BG PARA TABLET  */
+@media screen and (min-width: 768px) {
+  .hero-img {
+    height: 620px;
+    width: 100%;
+    background-image: url(../img/hero-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+/* CONFIGURANDO A IMAGEM DE BG PARA DESKTOP */
+@media screen and (min-width: 1024px) {
+  .hero-img {
+    height: 620px;
+    width: 100%;
+    background-image: url(../img/hero-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
