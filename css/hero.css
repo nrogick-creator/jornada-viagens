@@ -11,6 +11,15 @@
   */
 }
 
+.hero h2 {
+  padding: 88px 24px; /*88px é o padding para cima e para baixo e 60px é o padding das laterais */
+  margin: 0px;
+  font-weight: var(--text-weight);
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+}
+
 /* CONFIGURANDO A IMAGEM DE BG PARA TABLET  */
 @media screen and (min-width: 768px) {
   .hero-img {
@@ -19,6 +28,10 @@
     background-image: url(../img/hero-tablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  .hero h2 {
+    padding: 88px 60px; /*88px é o padding para cima e para baixo e 60px é o padding das laterais */
+    font-size: 32px;
   }
 }
 
@@ -30,5 +43,14 @@
     background-image: url(../img/hero-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  .hero h2 {
+    padding: 88px 120px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .hero h2 {
+    padding: 88px 160px;
   }
 }
