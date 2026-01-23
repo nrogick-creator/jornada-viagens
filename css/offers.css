@@ -7,6 +7,7 @@
   padding: 24px 16px; /* sequência: em cima e embaixo e laterais */
   border-radius: 16px;
   text-align: center;
+  margin: 24px auto;
 }
 .card header {
   display: block;
@@ -31,6 +32,17 @@
   font-size: 32px;
   margin-top: 24px;
   display: inline-block;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    display: inline-block;
+    margin-inline: 24px;
+  }
+  #offers-cards {
+    width: 648px;
+    height: 600px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
