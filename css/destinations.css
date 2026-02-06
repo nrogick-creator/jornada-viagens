@@ -1,9 +1,3 @@
-.destinations {
-  width: 312px;
-  margin: 0 auto;
-  margin-top: 88px;
-}
-
 .destinations-items {
   display: flex;
   flex-direction: column;
