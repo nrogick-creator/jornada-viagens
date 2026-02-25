@@ -1,6 +1,10 @@
-.hero-img {
+.hero .hero-img,
+.bottom-hero .hero-img {
   height: 400px;
   width: 100%;
+}
+
+.hero .hero-img {
   background-image: url(../img/hero-mobile.jpg); /* coloca a img como background para ajustar melhor a tela */
   background-repeat: no-repeat;
   background-size: cover;
@@ -9,6 +13,11 @@
     background: url(../img/hero-mobile.jpg) no-repeat;
     background-size: cover;
   */
+}
+
+.bottom-hero .hero-img {
+  background: url(../img/bottom-hero-mobile.png) no-repeat;
+  background-size: cover;
 }
 
 .hero h2 {
@@ -29,6 +38,11 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .bottom-hero .hero-img {
+    height: 400px;
+    background: url(../img/bottom-hero-tablet.png) no-repeat;
+    background-size: cover;
+  }
   .hero h2 {
     padding: 88px 60px; /*88px é o padding para cima e para baixo e 60px é o padding das laterais */
     font-size: 32px;
@@ -42,6 +56,11 @@
     width: 100%;
     background-image: url(../img/hero-desktop.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bottom-hero .hero-img {
+    height: 600px;
+    background: url(../img/bottom-hero-desktop.png) no-repeat;
     background-size: cover;
   }
   .hero h2 {
