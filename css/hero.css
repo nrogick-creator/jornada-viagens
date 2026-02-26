@@ -29,6 +29,7 @@
   line-height: 1.5;
 }
 
+
 /* CONFIGURANDO A IMAGEM DE BG PARA TABLET  */
 @media screen and (min-width: 768px) {
   .hero-img {
@@ -48,6 +49,8 @@
     font-size: 32px;
   }
 }
+
+
 
 /* CONFIGURANDO A IMAGEM DE BG PARA DESKTOP */
 @media screen and (min-width: 1024px) {
